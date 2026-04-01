@@ -1756,3 +1756,10 @@ export function setPromptId(id: string | null): void {
   STATE.promptId = id
 }
 
+
+
+
+// Stub: isReplBridgeActive — internal bridge feature not present in this build
+export function isReplBridgeActive(): boolean {
+  return false
+}
